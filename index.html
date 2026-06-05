@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayoubia Motors & Property Adviser Piplan | Premium Vehicles & Real Estate Consultant</title>
+    <meta name="description" content="Discover premium vehicles and elite real estate deals at Ayoubia Motors & Property Adviser in Piplan, Pakistan. Over 5.0-star rated consultancy services for buying, selling, and exchanging cars and plots.">
+    <meta name="keywords" content="Ayoubia Motors, Property Adviser Piplan, Real Estate Piplan, Car Showroom Piplan, MCB Bank Piplan, Piplan Property, Buy Cars Pakistan">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome 6 Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS Link -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- 1. STICKY NAVIGATION BAR -->
+    <header class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#home" class="logo">
+                <img src="assets/ayoubia_logo.png" alt="Ayoubia Logo" class="logo-img">
+                <div class="logo-text">
+                    <h1>Ayoubia</h1>
+                    <span>Motors & Property</span>
+                </div>
+            </a>
+            
+            <nav class="nav-links">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About Us</a>
+                <a href="#services" class="nav-link">Our Services</a>
+                <a href="#showroom" class="nav-link">Showcase</a>
+                <a href="#calculator" class="nav-link">Financing Calc</a>
+                <a href="#testimonials" class="nav-link">Reviews</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+            
+            <div class="mobile-toggle" id="mobile-toggle">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- 2. HERO SECTION -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-grid">
+                <div class="hero-content">
+                    <div class="rating-badge">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <span>5.0 Rated Adviser in Piplan</span>
+                    </div>
+                    <h1>Your Journey to <span>Luxury Cars</span> & <span>Elite Properties</span> Starts Here</h1>
+                    <p>Welcome to Ayoubia Motors & Property Adviser. We bring you the finest collection of luxury vehicles and premium real estate opportunities in Piplan. Built on trust, driven by excellence.</p>
+                    <div class="hero-btns">
+                        <a href="#showroom" class="btn btn-gold"><i class="fa-solid fa-car"></i> View Showroom</a>
+                        <a href="#contact" class="btn btn-outline"><i class="fa-solid fa-envelope"></i> Get Consultation</a>
+                    </div>
+                </div>
+                
+                <!-- Quick Search Widget -->
+                <div class="search-widget">
+                    <h3>Quick Showroom Search</h3>
+                    <form class="search-form" id="quick-search-form">
+                        <div class="form-group">
+                            <label for="search-category">What are you looking for?</label>
+                            <div class="select-wrapper">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                                <select id="search-category">
+                                    <option value="motors">Premium Motors (Cars)</option>
+                                    <option value="properties">Elite Real Estate (Plots/Houses)</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="search-budget">Select Budget Range</label>
+                            <div class="select-wrapper">
+                                <i class="fa-solid fa-money-bill-wave"></i>
+                                <select id="search-budget">
+                                    <option value="any">Any Budget</option>
+                                    <option value="low">Under Rs. 50 Lakh</option>
+                                    <option value="medium">Rs. 50 Lakh - 2 Crore</option>
+                                    <option value="high">Above Rs. 2 Crore</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="search-location">Location / Model</label>
+                            <div class="select-wrapper">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <select id="search-location">
+                                    <option value="piplan">Piplan Area (Main City)</option>
+                                    <option value="outskirts">Piplan Outskirts</option>
+                                    <option value="imported">Imported / JDM (Cars)</option>
+                                </select>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-gold" style="width: 100%; margin-top: 10px;">
+                            <i class="fa-solid fa-search"></i> Search Listings
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. FLOATING STATS BAR -->
+    <section class="container" style="position: relative; z-index: 10;">
+        <div class="stats-bar">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <h3>5.0</h3>
+                    <p>Google Rating</p>
+                </div>
+                <div class="stat-item">
+                    <h3>150+</h3>
+                    <p>Deals Closed</p>
+                </div>
+                <div class="stat-item">
+                    <h3>100%</h3>
+                    <p>Verified Assets</p>
+                </div>
+                <div class="stat-item">
+                    <h3>15+</h3>
+                    <p>Years Experience</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. ABOUT US SECTION -->
+    <section class="section-padding" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-img-area">
+                    <div class="about-img-frame">
+                        <img src="assets/ayoubia_hero.png" alt="Ayoubia Premium Office and Car">
+                    </div>
+                    <div class="about-badge">
+                        <div class="rating">5.0</div>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="text">Top Rated in Piplan</div>
+                    </div>
+                </div>
+                
+                <div class="about-content">
+                    <div class="section-header" style="text-align: left; margin-bottom: 20px;">
+                        <span class="subtitle">About Our Business</span>
+                        <h2>Ayoubia Motors & Property Adviser</h2>
+                    </div>
+                    <p>Ayoubia Motors & Property Adviser stands as a symbol of reliability and professionalism in Piplan, Pakistan. Located prominently in front of MCB Bank, we specialize in high-end vehicle trade and premium real estate investment advice.</p>
+                    
+                    <div class="about-quote">
+                        <p>"We deal in transparent transactions. Whether you're buying your dream SUV or securing a high-yield commercial plot, our team ensures 100% legal verification and complete peace of mind."</p>
+                        <span>— Management Team, Ayoubia Piplan</span>
+                    </div>
+                    
+                    <div class="about-features">
+                        <div class="feat-item">
+                            <i class="fa-solid fa-shield-halved"></i>
+                            <div>
+                                <h4>Verified Paperwork</h4>
+                                <p>We physically verify car documents and property land deeds before offering them.</p>
+                            </div>
+                        </div>
+                        <div class="feat-item">
+                            <i class="fa-solid fa-handshake"></i>
+                            <div>
+                                <h4>Direct Fair Dealings</h4>
+                                <p>Transparent negotiations with absolute zero hidden commissions.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. SERVICES SECTION -->
+    <section class="section-padding services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="subtitle">What We Offer</span>
+                <h2>Our Premium Services</h2>
+            </div>
+            
+            <div class="services-grid">
+                <!-- Service 1 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-car"></i>
+                    </div>
+                    <h3>Motor Showroom</h3>
+                    <p>Buy, sell, and exchange brand new and pre-owned vehicles. Specializing in luxury SUVs, sedans, and efficient local cars.</p>
+                </div>
+                <!-- Service 2 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-building"></i>
+                    </div>
+                    <h3>Property Consultancy</h3>
+                    <p>Expert guidance on residential plots, commercial shops, agricultural land, and luxury houses in Piplan and adjacent regions.</p>
+                </div>
+                <!-- Service 3 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-file-signature"></i>
+                    </div>
+                    <h3>Legal Documentation</h3>
+                    <p>Full assistance in transfer documentation, registration, excise clearance, and land registry verification to ensure legal protection.</p>
+                </div>
+                <!-- Service 4 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-chart-line"></i>
+                    </div>
+                    <h3>Investment Advisory</h3>
+                    <p>Strategic property investment plans designed to maximize capital gains and rental yield in local developmental schemes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. SHOWCASE SECTION (VEHICLES & PROPERTIES) -->
+    <section class="section-padding" id="showroom">
+        <div class="container">
+            <div class="section-header">
+                <span class="subtitle">Featured Collection</span>
+                <h2>Explore Our Current Listings</h2>
+            </div>
+            
+            <!-- Showcase Navigation Tabs -->
+            <div class="showcase-tabs">
+                <button class="tab-btn active" data-target="motors">
+                    <i class="fa-solid fa-car-rear"></i> Premium Motors
+                </button>
+                <button class="tab-btn" data-target="properties">
+                    <i class="fa-solid fa-house-chimney"></i> Elite Properties
+                </button>
+            </div>
+            
+            <!-- Tab Pane: MOTORS -->
+            <div class="showcase-pane active" id="motors">
+                <div class="showcase-grid">
+                    <!-- Motor Card 1 -->
+                    <div class="showcase-card">
+                        <div class="card-img-area">
+                            <img src="assets/ayoubia_hero.png" alt="Toyota Prado SUV">
+                            <span class="card-badge badge-featured">Featured</span>
+                        </div>
+                        <div class="card-info">
+                            <h3>Toyota Land Cruiser Prado</h3>
+                            <div class="card-meta-loc">
+                                <i class="fa-solid fa-location-dot"></i> Ayoubia Showroom, Piplan
+                            </div>
+                            <div class="card-specs">
+                                <div class="spec-item">
+                                    <span class="label">Model</span>
+                                    <span class="val">2021 (TX L)</span>
+                                </div>
+                                <div class="spec-item">
+                                    <span class="label">Engine</span>
+                                    <span class="val">3.0L Diesel</span>
+                                </div>
+                                <div class="spec-item">
+                                    <span class="label">Transmission</span>
+                                    <span class="val">Automatic</span>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <div class="card-price">
+                                    <span class="label">Asking Price</span>
+                                    <span class="val">Rs. 2.65 Crore</span>
+                                </div>
+                                <a href="#" class="btn btn-whatsapp inquire-btn" data-name="Toyota Land Cruiser Prado 2021" data-price="Rs. 2.65 Crore" data-type="car">
+                                    <i class="fa-brands fa-whatsapp"></i> Inquire
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Motor Card 2 -->
+                    <div class="showcase-card">
+                        <div class="card-img-area">
+                            <img src="assets/ayoubia_car.png" alt="Toyota Corolla Altis Grande">
+                            <span class="card-badge badge-available">Available</span>
+                        </div>
+                        <div class="card-info">
+                            <h3>Toyota Corolla Altis Grande</h3>
+                            <div class="card-meta-loc">
+                                <i class="fa-solid fa-location-dot"></i> Ayoubia Showroom, Piplan
+                            </div>
+                            <div class="card-specs">
+                                <div class="spec-item">
+                                    <span class="label">Model</span>
+                                    <span class="val">2023 (Grande)</span>
+                                </div>
+                                <div class="spec-item">
+                                    <span class="label">Engine</span>
+                                    <span class="val">1.8L CVT-i</span>
+                                </div>
+                                <div class="spec-item">
+                                    <span class="label">Transmission</span>
+                                    <span class="val">Automatic</span>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <div class="card-price">
+                                    <span class="label">Asking Price</span>
+                                    <span class="val">Rs. 72 Lakh</span>
+                                </div>
+                                <a href="#" class="btn btn-whatsapp inquire-btn" data-name="Toyota Corolla Altis Grande 2023" data-price="Rs. 72 Lakh" data-type="car">
+                                    <i class="fa-brands fa-whatsapp"></i> Inquire
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Motor Card 3 -->
+                    <div class="showcase-card" style="opacity: 0.85;">
+                        <div class="card-img-area" style="filter: grayscale(40%);">
+                            <img src="assets/ayoubia_car.png" alt="Honda Civic Oriel">
+                            <span class="card-badge" style="background-color: #ef4444; color: white;">Sold Out</span>
+                        </div>
+                        <div class="card-info">
+                            <h3>Honda Civic Oriel 1.5 Turbo</h3>
+                            <div class="card-meta-loc">
+                                <i class="fa-solid fa-location-dot"></i> Ayoubia Showroom, Piplan
+                            </div>
+                            <div class="card-specs">
+                                <div class="spec-item">
+                                    <span class="label">Model</span>
+                                    <span class="val">2022 (Oriel)</span>
+                                </div>
+                                <div class="spec-item">
+                                    <span class="label">Engine</span>
+                                    <span class="val">1.5L Turbo</span>
+                                </div>
+                                <div class="spec-item">
+                                    <span class="label">Transmission</span>
+                                    <span class="val">Automatic</span>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <div class="card-price">
+                                    <span class="label">Sold Price</span>
+                                    <span class="val">Rs. 83 Lakh</span>
+                                </div>
+                                <a href="#" class="btn btn-outline" style="pointer-events: none; opacity: 0.6;">
+                                    Unavailable
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Tab Pane: PROPERTIES -->
+            <div class="showcase-pane" id="properties">
+                <div class="showcase-grid">
+                    <!-- Property Card 1 -->
+                    <div class="showcase-card">
+                        <div class="card-img-area">
+                            <img src="assets/residential_plots.png" alt="Residential Plot Piplan">
+                            <span class="card-badge badge-featured">Hot Deal</span>
+                        </div>
+                        <div class="card-info">
+                            <h3>5 Marla Residential Plot</h3>
+                            <div class="card-meta-loc">
+                                <i class="fa-solid fa-location-dot"></i> Canal Road Block A, Piplan
+                            </div>
+                            <div class="card-specs">
+                                <div class="spec-item">
+                                    <span class="label">Category</span>
+                                    <span class="val">Residential</span>
+                                </div>
+                                <div class="spec-item">
+                                    <span class="label">Status</span>
+                                    <span class="val">Registry/Khaata</span>
+                                </div>
+                                <div class="spec-item">
+                                    <span class="label">Utilities</span>
+                                    <span class="val">Electricity & Gas</span>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <div class="card-price">
+                                    <span class="label">Total Price</span>
+                                    <span class="val">Rs. 35 Lakh</span>
+                                </div>
+                                <a href="#" class="btn btn-whatsapp inquire-btn" data-name="5 Marla Plot Canal Road" data-price="Rs. 35 Lakh" data-type="property">
+                                    <i class="fa-brands fa-whatsapp"></i> Inquire
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Property Card 2 -->
+                    <div class="showcase-card">
+                        <div class="card-img-area">
+                            <img src="assets/ayoubia_property.png" alt="10 Marla Modern House">
+                            <span class="card-badge badge-available">Ready to Move</span>
+                        </div>
+                        <div class="card-info">
+                            <h3>10 Marla Luxury Modern House</h3>
+                            <div class="card-meta-loc">
+                                <i class="fa-solid fa-location-dot"></i> Housing Scheme Phase 1, Piplan
+                            </div>
+                            <div class="card-specs">
+                                <div class="spec-item">
+                                    <span class="label">Configuration</span>
+                                    <span class="val">4 Bed / 5 Bath</span>
+                                </div>
+                                <div class="spec-item">
+                                    <span class="label">Built Area</span>
+                                    <span class="val">3100 SqFt</span>
+                                </div>
+                                <div class="spec-item">
+                                    <span class="label">Storeys</span>
+                                    <span class="val">Double Story</span>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <div class="card-price">
+                                    <span class="label">Total Value</span>
+                                    <span class="val">Rs. 2.40 Crore</span>
+                                </div>
+                                <a href="#" class="btn btn-whatsapp inquire-btn" data-name="10 Marla Luxury House" data-price="Rs. 2.40 Crore" data-type="property">
+                                    <i class="fa-brands fa-whatsapp"></i> Inquire
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Property Card 3 -->
+                    <div class="showcase-card">
+                        <div class="card-img-area">
+                            <img src="assets/commercial_building.png" alt="Commercial Plaza Piplan">
+                            <span class="card-badge badge-available">High Yield</span>
+                        </div>
+                        <div class="card-info">
+                            <h3>2 Kanal Commercial Plaza Plot</h3>
+                            <div class="card-meta-loc">
+                                <i class="fa-solid fa-location-dot"></i> Main Bazar, Infront MCB Bank, Piplan
+                            </div>
+                            <div class="card-specs">
+                                <div class="spec-item">
+                                    <span class="label">Frontage</span>
+                                    <span class="val">80 Feet Main Road</span>
+                                </div>
+                                <div class="spec-item">
+                                    <span class="label">Category</span>
+                                    <span class="val">Commercial</span>
+                                </div>
+                                <div class="spec-item">
+                                    <span class="label">Possession</span>
+                                    <span class="val">Immediate</span>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <div class="card-price">
+                                    <span class="label">Commercial Value</span>
+                                    <span class="val">Rs. 6.50 Crore</span>
+                                </div>
+                                <a href="#" class="btn btn-whatsapp inquire-btn" data-name="2 Kanal Commercial Plaza Plot Main Bazar" data-price="Rs. 6.50 Crore" data-type="property">
+                                    <i class="fa-brands fa-whatsapp"></i> Inquire
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. INSTALLMENT & FINANCING CALCULATOR SECTION -->
+    <section class="section-padding calculator-section" id="calculator">
+        <div class="container">
+            <div class="calc-grid">
+                <div class="calc-intro">
+                    <div class="section-header" style="text-align: left; margin-bottom: 25px;">
+                        <span class="subtitle">Finance Assistance</span>
+                        <h2>Installment & Financing Estimator</h2>
+                    </div>
+                    <p>We offer customized installment plans for both high-end automobiles and valuable real estate plots in Piplan. Use our interactive calculator to estimate your monthly payouts based on market markup rates.</p>
+                    
+                    <div class="calc-list">
+                        <div class="calc-list-item">
+                            <i class="fa-solid fa-circle-check"></i>
+                            <div>
+                                <h4>Flexible Down Payments</h4>
+                                <p>Start from as low as 15% down payment for properties and 20% for registered motors.</p>
+                            </div>
+                        </div>
+                        <div class="calc-list-item">
+                            <i class="fa-solid fa-circle-check"></i>
+                            <div>
+                                <h4>Fixed Profit Rates</h4>
+                                <p>12% flat profit rate for vehicles and 10% for property deals, guaranteed over the tenure.</p>
+                            </div>
+                        </div>
+                        <div class="calc-list-item">
+                            <i class="fa-solid fa-circle-check"></i>
+                            <div>
+                                <h4>Immediate Possession Options</h4>
+                                <p>Get vehicle keys or land coordinates verified instantly upon down payment completion.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Interactive Calculator Card -->
+                <div class="calc-card">
+                    <h3 style="margin-bottom: 24px; text-align: center; color: var(--text-white);">Calculate Installment</h3>
+                    <form class="calc-form" onsubmit="event.preventDefault();">
+                        <div class="calc-input-group">
+                            <label for="calc-type">Deal Category</label>
+                            <div class="select-wrapper">
+                                <i class="fa-solid fa-sliders"></i>
+                                <select id="calc-type">
+                                    <option value="motors">Motors / Vehicles (12% Markup)</option>
+                                    <option value="property">Property / Plots (10% Markup)</option>
+                                </select>
+                            </div>
+                        </div>
+                        
+                        <div class="calc-input-group">
+                            <label for="calc-price-val">Total Value (PKR)</label>
+                            <input type="number" id="calc-price-val" value="5000000" min="500000" max="50000000" step="50000">
+                            <input type="range" id="calc-price-range" min="500000" max="50000000" step="100000" value="5000000">
+                        </div>
+                        
+                        <div class="calc-input-group">
+                            <label for="calc-down-percent">Down Payment: <span id="calc-down-val">Rs. 1,000,000 (20%)</span></label>
+                            <input type="range" id="calc-down-percent" min="15" max="80" step="5" value="20">
+                        </div>
+                        
+                        <div class="calc-input-group">
+                            <label for="calc-tenure">Financing Tenure</label>
+                            <div class="select-wrapper">
+                                <i class="fa-solid fa-calendar-days"></i>
+                                <select id="calc-tenure">
+                                    <option value="1">1 Year Plan (12 Months)</option>
+                                    <option value="2">2 Years Plan (24 Months)</option>
+                                    <option value="3" selected>3 Years Plan (36 Months)</option>
+                                    <option value="4">4 Years Plan (48 Months)</option>
+                                    <option value="5">5 Years Plan (60 Months)</option>
+                                </select>
+                            </div>
+                        </div>
+                        
+                        <div class="calc-results">
+                            <div class="result-title">Estimated Monthly Payment</div>
+                            <div class="result-val" id="calc-result-val">Rs. 146,667 / Month</div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 8. GOOGLE MAPS REVIEWS (TESTIMONIALS) -->
+    <section class="section-padding" id="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="subtitle">Client Testimonials</span>
+                <h2>What Our Customers Say</h2>
+            </div>
+            
+            <div class="testimonials-grid">
+                <!-- Review 1 -->
+                <div class="review-card">
+                    <div class="review-stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="review-content">
+                        "Dealing good fully recommend. The behavior of management is highly professional and they guide you with transparency about cars and pricing."
+                    </div>
+                    <div class="reviewer-info">
+                        <div class="reviewer-avatar">R</div>
+                        <div class="reviewer-details">
+                            <h4>Radio ki Dunia</h4>
+                            <span>Google Local Guide • 3 years ago</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Review 2 -->
+                <div class="review-card">
+                    <div class="review-stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="review-content">
+                        "Positive: Professionalism. Purchased our civic from here and the entire transfer paperwork was processed smoothly within few days."
+                    </div>
+                    <div class="reviewer-info">
+                        <div class="reviewer-avatar">S</div>
+                        <div class="reviewer-details">
+                            <h4>Saleem Shehzad</h4>
+                            <span>Customer Review • 4 years ago</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Review 3 -->
+                <div class="review-card">
+                    <div class="review-stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="review-content">
+                        "Positive: Value. High-quality consultation for investment in Piplan plots. Very honest deals without any hidden fees."
+                    </div>
+                    <div class="reviewer-info">
+                        <div class="reviewer-avatar">M</div>
+                        <div class="reviewer-details">
+                            <h4>Malik Taj</h4>
+                            <span>Verified Investor • 4 years ago</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 9. CONTACT & MAP SECTION -->
+    <section class="section-padding" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="subtitle">Get In Touch</span>
+                <h2>Visit Our Office Or Inquire</h2>
+            </div>
+            
+            <div class="contact-grid">
+                <!-- Contact Details -->
+                <div class="contact-info-panel">
+                    <div class="contact-card">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <div>
+                            <h4>Our Address</h4>
+                            <p>Infront MCB Bank, Near Car Stand PIPLAN, 42000, Punjab, Pakistan</p>
+                            <p style="font-size: 0.75rem; color: var(--accent-gold); margin-top: 5px;">Plus Code: 79P8+WP Piplan, Pakistan</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <i class="fa-solid fa-phone"></i>
+                        <div>
+                            <h4>Call / WhatsApp</h4>
+                            <p><a href="tel:+923025044085">+92 302 5044085</a></p>
+                            <p style="font-size: 0.8rem; color: var(--text-gray);">Call timing: 9:00 AM - 7:00 PM</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <i class="fa-solid fa-clock"></i>
+                        <div>
+                            <h4>Opening Hours</h4>
+                            <p>Monday - Saturday: 9:00 AM - 7:00 PM</p>
+                            <p>Prayer / Lunch Break: 1:30 PM - 2:30 PM</p>
+                            <p>Friday: Closed (or half-day break for Juma)</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Embedded Map -->
+                    <div class="map-container">
+                        <iframe src="https://maps.google.com/maps?q=MCB%20Bank%20Piplan%20Pakistan&t=&z=15&ie=UTF8&iwloc=&output=embed" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+                
+                <!-- Contact Form Panel -->
+                <div class="contact-form-panel">
+                    <h3>Send Us A Message</h3>
+                    <p>Fill out the form below. Submitting will immediately prepare a structured message for our WhatsApp representative.</p>
+                    
+                    <form class="contact-form" id="ayoubia-contact-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="form-name">Your Name *</label>
+                                <input type="text" id="form-name" class="input-field" placeholder="Enter name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="form-phone">WhatsApp / Phone *</label>
+                                <input type="tel" id="form-phone" class="input-field" placeholder="e.g. 03025044085" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="form-service">Category of Inquiry</label>
+                            <div class="select-wrapper">
+                                <i class="fa-solid fa-circle-info"></i>
+                                <select id="form-service" class="input-field" style="padding-left: 40px;">
+                                    <option value="motors">Motors / Vehicles Showroom</option>
+                                    <option value="properties">Property & Real Estate Advisory</option>
+                                    <option value="verification">Asset Verification & Paperwork</option>
+                                    <option value="other">General Query</option>
+                                </select>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="form-message">Describe Your Query *</label>
+                            <textarea id="form-message" class="input-field" placeholder="Write details about the vehicle model or plot size you require..." required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-gold" style="width: 100%; font-size: 1rem;">
+                            <i class="fa-brands fa-whatsapp"></i> Submit Inquiry via WhatsApp
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 10. FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <h2>Ayoubia Motors & Property</h2>
+                    <p>Premium Motors showroom and elite Property advisory services in Piplan, Pakistan.</p>
+                    <div class="social-links">
+                        <a href="https://m.me/ayoubiapip" target="_blank" class="social-btn"><i class="fa-brands fa-facebook-messenger"></i></a>
+                        <a href="https://wa.me/923025044085" target="_blank" class="social-btn"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="tel:+923025044085" class="social-btn"><i class="fa-solid fa-phone"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <h3>Motors Link</h3>
+                    <ul>
+                        <li><a href="#showroom">Luxury SUVs</a></li>
+                        <li><a href="#showroom">Sedans Collection</a></li>
+                        <li><a href="#showroom">Local Exchange</a></li>
+                        <li><a href="#calculator">Car Financing Calc</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h3>Property Link</h3>
+                    <ul>
+                        <li><a href="#showroom">Residential Plots</a></li>
+                        <li><a href="#showroom">Commercial Plazas</a></li>
+                        <li><a href="#showroom">Agricultural Lands</a></li>
+                        <li><a href="#about">Legal Verification</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h3>Get in Touch</h3>
+                    <ul style="color: var(--text-gray); font-size: 0.88rem;">
+                        <li><i class="fa-solid fa-location-dot" style="color: var(--accent-gold); margin-right: 6px;"></i> Infront MCB Bank, Near Car Stand PIPLAN, 42000</li>
+                        <li><i class="fa-solid fa-phone" style="color: var(--accent-gold); margin-right: 6px;"></i> +92 302 5044085</li>
+                        <li><i class="fa-solid fa-clock" style="color: var(--accent-gold); margin-right: 6px;"></i> Mon - Sat: 9am - 7pm</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 Ayoubia Motors & Property Adviser Piplan. All Rights Reserved.</p>
+                <div class="developer-tag">Designed with <i class="fa-solid fa-heart" style="color: #ef4444;"></i> by <span>Antigravity</span></div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/923025044085" class="floating-whatsapp" target="_blank" aria-label="Contact on WhatsApp">
+        <i class="fa-brands fa-whatsapp"></i>
+        <span class="floating-whatsapp-tooltip">Chat with us on WhatsApp</span>
+    </a>
+
+    <!-- Custom Script Link -->
+    <script src="script.js"></script>
+</body>
+</html>
